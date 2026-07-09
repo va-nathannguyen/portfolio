@@ -268,8 +268,7 @@ ul { list-style: none; }
   display: grid;
   grid-template-columns: 1fr 260px;
   gap: 48px;
-  align-items: center;
-  min-height: 70vh;
+  align-items: start;
 }
 
 .hero-content {
@@ -279,13 +278,14 @@ ul { list-style: none; }
 
 .hero-photo-col {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-top: 8px;
 }
 
 .hero-photo-wrap {
   width: 240px;
-  height: 300px;
+  height: 310px;
   border-radius: 16px;
   overflow: hidden;
   border: 3px solid var(--border);
