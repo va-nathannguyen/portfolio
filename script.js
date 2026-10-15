@@ -43,6 +43,10 @@ const revealTargets = [
   '.hero-inner',
   '.tools-note',
   '.contact-cta',
+  '.proof-item',
+  '.tl-item',
+  '.cred-card',
+  '.sw-card',
 ];
 
 // Add reveal class to all targets
@@ -53,7 +57,7 @@ revealTargets.forEach(selector => {
 });
 
 // Stagger cards within grids
-['strength-card', 'ws-item', 'contact-card', 'tz-card'].forEach(cls => {
+['strength-card', 'ws-item', 'contact-card', 'tz-card', 'proof-item', 'cred-card'].forEach(cls => {
   document.querySelectorAll(`.${cls}`).forEach((el, i) => {
     el.style.transitionDelay = `${i * 60}ms`;
   });
