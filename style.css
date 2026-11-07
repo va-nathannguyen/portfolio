@@ -238,7 +238,7 @@ a:hover { color: var(--accent); }
   width: 100%;
   aspect-ratio: 3 / 4;
   object-fit: cover;
-  object-position: 50% 45%;
+  object-position: 50% 30%;
   border-radius: 20px;
 }
 
